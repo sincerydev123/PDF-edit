@@ -1,16 +1,5 @@
 # WebViewer UI 
 
-WebViewer UI sits on top of [WebViewer](https://apryse.com/products/webviewer), a powerful JavaScript-based PDF Library that's part of the [Apryse PDF SDK](https://www.apryse.com). Built in React, WebViewer UI provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
-
-![WebViewer UI](https://www.pdftron.com/downloads/pl/webviewer-ui.png)
-
-This repo is specifically designed for any users interested in advanced customizations. With the source code access, it gives developers full control to customize & style the UI, build custom controls & logic, integrate into workflows, or build a UI from scratch.
-
-Any approved pull requests made to this repository are merged into WebViewer's internal builds, and can be accessed through the nightly builds. 
-Any approved pull requests to the master branch will go to WebViewer's [nightly experimental builds](https://www.pdftron.com/nightly/#experimental/) and pull requests to version number branches will go to that version's [nightly stable](https://www.pdftron.com/nightly/#stable/).
-
-Nightly stable and experimental builds can also be downloaded from [WebViewer's NPM package](https://docs.apryse.com/documentation/web/faq/webviewer-nightly-build/#npm).
-
 ## Install
 
 ```
@@ -54,16 +43,3 @@ src/
   redux/           - Redux files for state managing
   lib/             - Lib folder created upon npm install, used for dev testing only
 ```
-
-## API documentation
-
-See [API documentation](https://docs.apryse.com/api/web/UI.html).
-
-## Contributing
-
-See [contributing](./CONTRIBUTING.md).
-
-## License
-
-See [license](./LICENSE).
-![](https://onepixel.pdftron.com/webviewer-ui)
